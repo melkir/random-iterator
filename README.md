@@ -13,7 +13,7 @@ $ npm install random-iterator
 
 ### Simple Array
 ```js
-const randomIterator = require('./lib/index');
+const randomIterator = require('random-iterator');
 
 const it = randomIterator([1, 2, 3]);
 

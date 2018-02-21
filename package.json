@@ -1,0 +1,41 @@
+{
+  "name": "random-iterator",
+  "version": "0.1.0",
+  "description": "Iterate values in a list in random order",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel index.js -d dist",
+    "test": "xo && ava -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melkir/random-iterator.git"
+  },
+  "keywords": ["array", "generator", "iterator", "next"],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "xo": "*"
+  },
+  "author": {
+    "name": "melkir",
+    "email": "mail@thibaultvieux.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melkir/random-iterator/issues"
+  },
+  "xo": {
+    "space": true,
+    "prettier": true
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true,
+    "bracketSpacing": true
+  },
+  "homepage": "https://github.com/melkir/random-iterator#readme"
+}
