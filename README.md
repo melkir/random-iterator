@@ -1,6 +1,6 @@
-# random-iterator
-> Iterate values in a list in random order using ES6 Generator
+# random-iterator [![Build Status](https://travis-ci.org/melkir/random-iterator.svg?branch=master)](https://travis-ci.org/melkir/random-iterator)
 
+> Iterate values in a list in random order using ES6 Generator
 
 ## Install
 
@@ -8,10 +8,10 @@
 $ npm install random-iterator
 ```
 
-
 ## Usage
 
 ### Simple Array
+
 ```js
 const randomIterator = require('random-iterator');
 
@@ -24,11 +24,12 @@ it.next(); // => { value: undefined, done: true }
 ```
 
 ### Objects
+
 ```js
 const quotesIterable = randomIterator({
-  'a': 'hi',
-  'b': 'hello',
-  'c': 'good morning'
+  a: 'hi',
+  b: 'hello',
+  c: 'good morning',
 });
 
 // Randomly pick a quote
@@ -36,6 +37,7 @@ quotesIterable.next().value; // => hello
 ```
 
 ### Deck of cards
+
 ```js
 const generateDeck = () => {
   const suits = ['♣', '♦', '♥', '♠'];
@@ -51,7 +53,7 @@ const generateDeck = () => {
   }
 
   return deck;
-}
+};
 
 // Create a deck of cards
 const myDeck = generateDeck();
@@ -62,7 +64,6 @@ deckIterable.next().value; // => Q ♥
 deckIterable.next().value; // => 4 ♣
 deckIterable.next().value; // => 7 ♣
 ```
-
 
 ## License
 
