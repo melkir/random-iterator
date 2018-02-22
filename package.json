@@ -11,8 +11,15 @@
     "type": "git",
     "url": "git+https://github.com/melkir/random-iterator.git"
   },
-  "keywords": ["array", "generator", "iterator", "next"],
-  "dependencies": {},
+  "keywords": [
+    "array",
+    "generator",
+    "iterator",
+    "next"
+  ],
+  "dependencies": {
+    "babel-runtime": "^6.26.0"
+  },
   "devDependencies": {
     "ava": "*",
     "babel-cli": "^6.26.0",
