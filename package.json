@@ -1,6 +1,6 @@
 {
   "name": "random-iterator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Iterate values in a list in random order",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,12 @@
     "type": "git",
     "url": "git+https://github.com/melkir/random-iterator.git"
   },
-  "keywords": ["array", "generator", "iterator", "next"],
+  "keywords": [
+    "array",
+    "generator",
+    "iterator",
+    "next"
+  ],
   "dependencies": {},
   "devDependencies": {
     "ava": "*",
@@ -39,7 +44,10 @@
     "bracketSpacing": true
   },
   "nyc": {
-    "reporter": ["lcov", "text"]
+    "reporter": [
+      "lcov",
+      "text"
+    ]
   },
   "homepage": "https://github.com/melkir/random-iterator#readme"
 }
