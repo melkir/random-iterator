@@ -1,4 +1,4 @@
-# random-iterator [![Build Status](https://travis-ci.org/melkir/random-iterator.svg?branch=master)](https://travis-ci.org/melkir/random-iterator)
+# random-iterator [![Build Status](https://travis-ci.org/melkir/random-iterator.svg?branch=master)](https://travis-ci.org/melkir/random-iterator) [![codecov](https://codecov.io/gh/melkir/random-iterator/branch/master/graph/badge.svg)](https://codecov.io/gh/melkir/random-iterator)
 
 > Iterate values in a list in random order using ES6 Generator
 

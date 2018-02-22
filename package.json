@@ -4,22 +4,21 @@
   "description": "Iterate values in a list in random order",
   "main": "index.js",
   "scripts": {
-    "test": "xo && ava -v"
+    "test": "xo && nyc ava -v"
+  },
+  "engines": {
+    "node": ">=8"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/melkir/random-iterator.git"
   },
-  "keywords": [
-    "array",
-    "generator",
-    "iterator",
-    "next"
-  ],
-  "dependencies": {
-  },
+  "keywords": ["array", "generator", "iterator", "next"],
+  "dependencies": {},
   "devDependencies": {
     "ava": "*",
+    "codecov": "^3.0.0",
+    "nyc": "^11.4.1",
     "xo": "*"
   },
   "author": {
@@ -38,6 +37,9 @@
     "trailingComma": "es5",
     "singleQuote": true,
     "bracketSpacing": true
+  },
+  "nyc": {
+    "reporter": ["lcov", "text"]
   },
   "homepage": "https://github.com/melkir/random-iterator#readme"
 }
