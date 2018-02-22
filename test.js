@@ -50,6 +50,6 @@ test('objects', t => {
 
   const quotesIterable = randomIterable(quotes);
   const quote = quotesIterable.next().value;
-  const quotesValues = Object.keys(quotes).map(key => quotes[key]);
+  const quotesValues = Object.values(quotes);
   t.true(quotesValues.includes(quote));
 });
