@@ -53,3 +53,8 @@ test('objects', t => {
   const quotesValues = Object.values(quotes);
   t.true(quotesValues.includes(quote));
 });
+
+test('null', t => {
+  const it = randomIterable(null);
+  t.true(it.next().done);
+});

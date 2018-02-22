@@ -36,7 +36,14 @@
   },
   "xo": {
     "space": true,
-    "prettier": true
+    "prettier": true,
+    "rules": {
+      "eqeqeq": [
+        "error",
+        "smart"
+      ],
+      "no-eq-null": "off"
+    }
   },
   "prettier": {
     "trailingComma": "es5",

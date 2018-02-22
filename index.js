@@ -1,6 +1,7 @@
 'use strict';
 
 function* randomIterator(array) {
+  if (array == null) return;
   const keys = Object.keys(array);
   shuffle(keys);
   for (let i = 0; i < keys.length; ++i) {
